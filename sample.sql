@@ -1,3 +1,11 @@
+DROP TABLE regions;
+DROP TABLE customers;
+DROP TABLE employees;
+DROP TABLE categories;
+DROP TABLE products;
+DROP TABLE orders;
+DROP TABLE order_details;
+
 CREATE TABLE regions
 (
     region_id      INT PRIMARY KEY,
